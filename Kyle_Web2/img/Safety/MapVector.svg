@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="88px" viewBox="0 0 117 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>MapVector</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-102.000000, -2583.000000)">
+            <g id="Safety" transform="translate(10.000000, 2434.000000)">
+                <g id="MapVector" transform="translate(94.000000, 151.000000)">
+                    <path d="M5,62.3343713 L36.7186447,72 L41.5314581,55.7444063 L50.4998767,46.7376007 L54,34.4361016 C54,34.4361016 41.5314581,27.8455587 43.0622585,11.1507496 L21.6247225,5 L5,62.3343713 Z" id="Fill-1" fill="#231F20"></path>
+                    <polygon id="Fill-3" fill="#231F20" points="40 72.0113093 66.4549415 72.0113093 90.7241422 79 101 42.0921984 72.1395932 41 60.7702898 43.6204717 46.340374 55.4140308"></polygon>
+                    <path d="M55.0023487,43 C55.0023487,43 61.6725782,37.8886291 72,37.6664718 L69.41772,29 C69.41772,29 54.787253,32.3335282 55.0023487,43" id="Fill-5" fill="#231F20"></path>
+                    <path d="M77.0013466,37 L102.435149,37 L107,21.267344 L72.0012851,12 C72.0012851,12 71.7839657,27.732656 77.0013466,37" id="Fill-7" fill="#231F20"></path>
+                    <path d="M69,12 L69,24.3817322 C69,24.3817322 56.8077112,28.2249778 56.5894803,31 C56.5894803,31 45.2683966,22.0335501 47.227892,12 L69,12 Z" id="Fill-9" fill="#231F20"></path>
+                    <polygon id="Stroke-11" stroke="#231F20" stroke-width="3" points="0 65.5500704 37.1595736 76.6200281 65.6265317 76.6200281 94.0940615 84 113 19.1003311 76.2749142 7.81395349 45.8516174 7.81395349 18.6881229 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

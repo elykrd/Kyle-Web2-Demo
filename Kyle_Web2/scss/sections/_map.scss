@@ -1,0 +1,49 @@
+// _map
+
+#map{
+
+  .trailheroimg{
+    background-image: url('../img/map/apptrailmap.jpg');
+      background-size:  cover;
+      height: 500px;
+      width: 100%;
+
+  }
+
+
+article{
+  background-color: $blue;
+  text-align: center;
+  border-radius: 25px;
+  padding: 15px 0;
+  color: $white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  h1{
+  font-size: 21px;
+  span{
+    font-size: 27px;
+  }
+}
+}
+
+
+.bottomtext{
+  background-color: $blue;
+  border-radius: 25px;
+  padding: 15px 0;
+  color: $white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+h1{
+  font-size: 21px;
+  text-align: center;
+}
+p{
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+}
+}

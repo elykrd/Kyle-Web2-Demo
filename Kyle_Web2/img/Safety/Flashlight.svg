@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="89px" viewBox="0 0 119 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Flashlight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.448720482 0.349181818 56.7239277 0.349181818 56.7239277 45.4852182 0.448720482 45.4852182"></polygon>
+        <polygon id="path-3" points="0 0.658938462 19.6831724 0.658938462 19.6831724 8.85309231 0 8.85309231"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-101.000000, -3250.000000)">
+            <g id="Safety" transform="translate(10.000000, 2434.000000)">
+                <g id="Flashlight" transform="translate(91.000000, 816.000000)">
+                    <g id="Group-3" transform="translate(62.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M13.266853,45.4852182 L24.5535398,32.9334909 L56.7242024,13.2468848 L47.757347,0.348763636 L16.2699976,19.4931273 L0.448720482,24.0290061 C0.448720482,24.0290061 13.9130819,28.3962182 13.266853,45.4852182" id="Fill-1" fill="#231F20" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M59.0880793,62 L39,30.7676581 C39,30.7676581 58.6057208,18.4477189 68.2424663,33.4165132 C77.8792119,48.3839432 66.8363981,59.0973787 59.0880793,62" id="Fill-4" fill="#231F20"></path>
+                    <polygon id="Fill-6" fill="#231F20" points="58 66.1977864 35.2523757 30 30 33.2128294 52.887227 70"></polygon>
+                    <path d="M43,60.5803735 L33.371202,45 C33.371202,45 23.9415921,50.8075345 30.0705647,58.9089734 C36.1995373,67.0090456 43,60.5803735 43,60.5803735" id="Fill-8" fill="#231F20"></path>
+                    <polygon id="Fill-10" fill="#231F20" points="83.4749861 13 93 7.04438704 91.0701754 4 82 9.7815876"></polygon>
+                    <polygon id="Fill-12" fill="#231F20" points="23 64.9238342 21.7685905 63 5 72.3113574 7.17929371 75"></polygon>
+                    <polygon id="Fill-14" fill="#231F20" points="26.6587174 69 30 69.770153 25.3165485 89 21 88.0055716"></polygon>
+                    <g id="Group-18" transform="translate(0.000000, 49.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-17"></g>
+                        <polygon id="Fill-16" fill="#231F20" mask="url(#mask-4)" points="18.9617931 8.85309231 19.6831724 5.79516923 1.03489655 0.658938462 -0.000275862069 5.04609231"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

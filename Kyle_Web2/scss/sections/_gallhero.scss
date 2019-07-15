@@ -1,0 +1,18 @@
+// _gallhero
+
+#gallhero{
+
+  background-image: url('../img/gallery/galleryhero.jpg');
+    background-size:  cover;
+    height: 135px;
+    width: 100%;
+    margin-bottom: 30px;
+
+
+    h1{
+      font-size: 21px;
+      text-align: center;
+      color: $white;
+      margin-top: 20px;
+    }
+}
