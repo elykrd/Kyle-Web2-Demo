@@ -12,11 +12,14 @@ text-align: center;
 h1{
   color: $white;
   margin-bottom: 30px;
+
+
 }
 
 h5{
   color: $white;
   margin-bottom: 30px;
+
 }
 
 p{
@@ -26,8 +29,25 @@ p{
   padding: 0 10px;
 }
 
+ul{
+  @include md{
+    display: grid;
+  grid-template-rows: repeat(2, 242px);
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  width: 100%;
 
-
+  }
+  @include lg{
+    display: grid;
+  grid-template-rows: repeat(1, 242px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  width: 100%;
+}
+}
 
 
 }

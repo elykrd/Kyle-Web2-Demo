@@ -2,13 +2,25 @@
 
 #hero{
   background-image: url('../img/hero/hero-img-1.jpg');
-    background-size:  cover;
+    background-size:  150%;
     height: 245px;
     width: 100%;
     background-position: -75px 0;
     margin-bottom: 60px;
     justify-content: flex-end;
     align-content: flex-end;
+
+    @include sm{
+      height: 350px;
+    }
+
+    @include md{
+      height: 550px;
+    }
+
+    @include lg{
+      height: 750px;
+    }
 
 #h1hero{
   display: flex;
@@ -20,6 +32,13 @@
     color: $white;
     font-size: 16px;
 
+    @include sm{
+      font-size: 20px;
+    }
+
+    @include md{
+      font-size: 30px;
+    }
   }
 }
 }

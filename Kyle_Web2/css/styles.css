@@ -393,13 +393,22 @@ footer {
 
 #hero {
   background-image: url("../img/hero/hero-img-1.jpg");
-  background-size: cover;
+  background-size: 150%;
   height: 245px;
   width: 100%;
   background-position: -75px 0;
   margin-bottom: 60px;
   justify-content: flex-end;
   align-content: flex-end; }
+  @media (min-width: 500px) {
+    #hero {
+      height: 350px; } }
+  @media (min-width: 710px) {
+    #hero {
+      height: 550px; } }
+  @media (min-width: 960px) {
+    #hero {
+      height: 750px; } }
   #hero #h1hero {
     display: flex;
     flex-direction: column;
@@ -408,35 +417,64 @@ footer {
       text-align: center;
       color: #fff;
       font-size: 16px; }
+      @media (min-width: 500px) {
+        #hero #h1hero h1 {
+          font-size: 20px; } }
+      @media (min-width: 710px) {
+        #hero #h1hero h1 {
+          font-size: 30px; } }
 
 #footpath h1 {
   font-size: 21px;
   color: #236D37;
   text-align: center;
   margin-bottom: 30px; }
+  @media (min-width: 960px) {
+    #footpath h1 {
+      font-size: 30px; } }
 
 #footpath p {
   color: #236D37;
   text-align: justify;
   padding-right: 30px;
   padding-left: 15px; }
+  @media (min-width: 960px) {
+    #footpath p {
+      font-size: 21px; } }
 
 #footpath .footpathgridparent {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 710px) {
+    #footpath .footpathgridparent {
+      display: block; } }
   #footpath .footpathgridparent .footpathimages {
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+    @media (min-width: 710px) {
+      #footpath .footpathgridparent .footpathimages {
+        flex-direction: row;
+        padding: 0 35px;
+        margin-bottom: 30px; } }
   #footpath .footpathgridparent .footpathp {
     grid-column: 2/3; }
 
 #map .trailheroimg {
   background-image: url("../img/map/apptrailmap.jpg");
   background-size: cover;
-  height: 500px;
-  width: 100%; }
+  height: 500px; }
+  @media (min-width: 710px) {
+    #map .trailheroimg {
+      height: 1000px; } }
+  @media (min-width: 960px) {
+    #map .trailheroimg {
+      height: 1000;
+      width: 100%;
+      background-size: contain;
+      background-position: center top;
+      background-repeat: no-repeat; } }
 
 #map article {
   background-color: #31578B;
@@ -448,8 +486,14 @@ footer {
   margin-bottom: 60px; }
   #map article h1 {
     font-size: 21px; }
+    @media (min-width: 960px) {
+      #map article h1 {
+        font-size: 30px; } }
     #map article h1 span {
       font-size: 27px; }
+      @media (min-width: 960px) {
+        #map article h1 span {
+          font-size: 39px; } }
 
 #map .bottomtext {
   background-color: #31578B;
@@ -461,9 +505,15 @@ footer {
   #map .bottomtext h1 {
     font-size: 21px;
     text-align: center; }
+    @media (min-width: 960px) {
+      #map .bottomtext h1 {
+        font-size: 30px; } }
   #map .bottomtext p {
     margin: 15px 0;
     padding: 0 15px; }
+    @media (min-width: 960px) {
+      #map .bottomtext p {
+        font-size: 21px; } }
 
 #safety {
   background-color: #236D37;
@@ -484,6 +534,22 @@ footer {
     margin-bottom: 30px;
     margin-top: 30px;
     padding: 0 10px; }
+  @media (min-width: 710px) {
+    #safety ul {
+      display: grid;
+      grid-template-rows: repeat(2, 242px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 10px;
+      width: 100%; } }
+  @media (min-width: 960px) {
+    #safety ul {
+      display: grid;
+      grid-template-rows: repeat(1, 242px);
+      grid-template-columns: repeat(4, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 10px;
+      width: 100%; } }
 
 #gallhero {
   background-image: url("../img/gallery/galleryhero.jpg");
@@ -491,11 +557,18 @@ footer {
   height: 135px;
   width: 100%;
   margin-bottom: 30px; }
+  @media (min-width: 710px) {
+    #gallhero {
+      height: 220px; } }
   #gallhero h1 {
     font-size: 21px;
     text-align: center;
     color: #fff;
     margin-top: 20px; }
+    @media (min-width: 710px) {
+      #gallhero h1 {
+        font-size: 30px;
+        padding-top: 25px; } }
 
 #gallery ul {
   display: grid;
@@ -503,6 +576,30 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 30px;
   grid-column-gap: 10px; }
+  @media (min-width: 500px) {
+    #gallery ul {
+      display: grid;
+      grid-template-rows: repeat(7, 242px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 10px;
+      width: 100%; } }
+  @media (min-width: 710px) {
+    #gallery ul {
+      display: grid;
+      grid-template-rows: repeat(4, 363px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 10px;
+      width: 100%; } }
+  @media (min-width: 960px) {
+    #gallery ul {
+      display: grid;
+      grid-template-rows: repeat(3, 363px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 10px;
+      width: 100%; } }
   #gallery ul li {
     background-size: cover;
     height: 100%;
@@ -527,6 +624,54 @@ footer {
       grid-row: span 2;
       grid-column: span 2;
       background-image: url("../img/gallery/gall5.jpg"); }
+    @media (min-width: 710px) {
+      #gallery ul li:nth-child(1) {
+        grid-row: span 2;
+        grid-column: span 2;
+        background-image: url("../img/gallery/gall1.jpg"); }
+      #gallery ul li:nth-child(2) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall2.jpg"); }
+      #gallery ul li:nth-child(3) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall3.jpg"); }
+      #gallery ul li:nth-child(4) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall4.jpg"); }
+      #gallery ul li:nth-child(5) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall5.jpg"); } }
+    @media (min-width: 960px) {
+      #gallery ul li:nth-child(1) {
+        grid-row: span 2;
+        grid-column: span 2;
+        background-image: url("../img/gallery/gall1.jpg");
+        background-position: -100px; }
+      #gallery ul li:nth-child(2) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall2.jpg");
+        background-position: -50px; }
+      #gallery ul li:nth-child(3) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall3.jpg"); }
+      #gallery ul li:nth-child(4) {
+        grid-row: span 1;
+        grid-column: span 1.5;
+        background-image: url("../img/gallery/gall4.jpg"); }
+      #gallery ul li:nth-child(5) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall5.jpg"); }
+      #gallery ul li:nth-child(6) {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-image: url("../img/gallery/gall6.jpg"); } }
 
 #signup {
   text-align: center; }
@@ -540,3 +685,10 @@ footer {
     color: #fff; }
   #signup input {
     margin-bottom: 15px; }
+    @media (min-width: 960px) {
+      #signup input ul li {
+        display: grid;
+        grid-template-rows: repeat(1, 242px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        width: 100%; } }

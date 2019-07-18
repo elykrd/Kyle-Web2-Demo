@@ -15,6 +15,20 @@
 
   input{
     margin-bottom: 15px;
+
+    ul{
+
+li{
+  @include lg{
+    display: grid;
+  grid-template-rows: repeat(1, 242px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  width: 100%;
+  }
+}
+
+    }
   }
 
 }

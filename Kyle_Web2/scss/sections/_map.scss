@@ -6,7 +6,21 @@
     background-image: url('../img/map/apptrailmap.jpg');
       background-size:  cover;
       height: 500px;
-      width: 100%;
+
+
+      @include md{
+        height: 1000px;
+      }
+
+      @include lg{
+        height: 1000;
+        width: 100%;
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+        
+
+      }
 
   }
 
@@ -22,8 +36,14 @@ article{
 
   h1{
   font-size: 21px;
+  @include lg{
+    font-size: 30px;
+  }
   span{
     font-size: 27px;
+    @include lg{
+      font-size: 39px;
+    }
   }
 }
 }
@@ -39,10 +59,16 @@ article{
 h1{
   font-size: 21px;
   text-align: center;
+  @include lg{
+    font-size: 30px;
+  }
 }
 p{
   margin: 15px 0;
   padding: 0 15px;
+  @include lg{
+    font-size: 21px;
+  }
 }
 
 }
