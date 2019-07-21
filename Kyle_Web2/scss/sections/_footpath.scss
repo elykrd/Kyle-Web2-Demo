@@ -46,6 +46,10 @@ grid-template-columns: repeat(2, 1fr);
   margin-bottom: 30px;
 }
 
+@include xl{
+  height: 180px;
+}
+
 
 }
 

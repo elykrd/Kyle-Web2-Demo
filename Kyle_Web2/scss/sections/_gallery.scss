@@ -5,14 +5,14 @@
           display: grid;
         grid-template-rows: repeat(7, 121px);
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 30px;
+        grid-row-gap: 10px;
         grid-column-gap: 10px;
 
         @include sm{
           display: grid;
         grid-template-rows: repeat(7, 242px);
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 30px;
+        grid-row-gap: 10px;
         grid-column-gap: 10px;
         width: 100%;
         }
@@ -22,7 +22,7 @@
           display: grid;
         grid-template-rows: repeat(4, 363px);
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 30px;
+        grid-row-gap: 10px;
         grid-column-gap: 10px;
         width: 100%;
         }
@@ -31,10 +31,20 @@
           display: grid;
         grid-template-rows: repeat(3, 363px);
         grid-template-columns: repeat(3, 1fr);
-        grid-row-gap: 30px;
+        grid-row-gap: 10px;
         grid-column-gap: 10px;
         width: 100%;
         }
+
+        @include xl{
+          display: grid;
+        grid-template-rows: repeat(4, 363px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        width: 100%;
+        }
+
 
 li{
   background-size: cover;
@@ -109,7 +119,8 @@ li{
     grid-row: span 2;
     grid-column: span 2;
     background-image: url("../img/gallery/gall1.jpg");
-    background-position: -100px;
+    background-position: -25px;
+
   }
   &:nth-child(2){
     grid-row: span 1;
@@ -125,7 +136,7 @@ li{
   }
   &:nth-child(4){
     grid-row: span 1;
-    grid-column: span 1.5;
+    grid-column: span 1;
     background-image: url("../img/gallery/gall4.jpg");
   }
   &:nth-child(5){
@@ -142,9 +153,44 @@ background-image: url("../img/gallery/gall6.jpg");
 }
 }
 
+@include xl{
+&:nth-child(1){
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../img/gallery/gall1.jpg");
+  background-position: -25px;
+
+}
+&:nth-child(2){
+  grid-row: span 1;
+  grid-column: span 1;
+  background-image: url("../img/gallery/gall2.jpg");
+  
+}
+&:nth-child(3){
+  grid-row: span 1;
+  grid-column: span 1;
+  background-image: url("../img/gallery/gall3.jpg");
+
+}
+&:nth-child(4){
+  grid-row: span 1;
+  grid-column: span 1;
+  background-image: url("../img/gallery/gall4.jpg");
+}
+
+&:nth-child(5){
+grid-row: span 2;
+grid-column: span 2;
+background-image: url("../img/gallery/gall5.jpg");
+
+}
+&:nth-child(6){
+grid-row: span 1;
+grid-column: span 1;
+background-image: url("../img/gallery/gall6.jpg");
 
 
-
-
+}}
 }
 }}

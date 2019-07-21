@@ -22,6 +22,10 @@
       height: 750px;
     }
 
+    @include xl{
+      height: 850px;
+    }
+
 #h1hero{
   display: flex;
   flex-direction: column;
@@ -38,6 +42,10 @@
 
     @include md{
       font-size: 30px;
+    }
+
+    @include xl{
+      font-size: 35px;
     }
   }
 }
