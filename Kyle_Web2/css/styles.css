@@ -368,16 +368,72 @@ input:focus {
 /* =============
     Navigation
 ============= */
+@media (min-width: 960px) {
+  ul li {
+    border-bottom: none; } }
+
+@media (min-width: 960px) {
+  ul {
+    display: flex; }
+    ul li {
+      padding-right: 11px; } }
+
 /* =============
     Header
 ============= */
 header {
+  display: grid;
+  grid-template-columns: 88% auto;
+  padding: 10px;
+  grid-template-areas: "logo burger" "nav nav";
+  position: fixed;
+  width: 100%;
   background-color: #31578B;
-  padding-bottom: 10px; }
-  header div {
+  top: 0; }
+  @media (min-width: 960px) {
+    header {
+      display: grid;
+      grid-template-columns: 60% auto;
+      padding: 10px;
+      grid-template-areas: "logo nav"; } }
+  header section:nth-child(2) {
+    grid-area: burger;
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px; }
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center; }
+  header a {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #fff; }
+    @media (min-width: 960px) {
+      header a {
+        display: flex !important;
+        justify-content: space-between;
+        border-bottom: none; } }
+  header button {
+    text-align: right;
+    color: #fff;
+    font-size: 1.25rem;
+    background-color: #31578B;
+    border: none;
+    outline: none; }
+    @media (min-width: 960px) {
+      header button {
+        display: none; } }
+  header nav {
+    grid-area: nav; }
+    @media (min-width: 960px) {
+      header nav {
+        border-bottom: none;
+        display: inline-block !important; } }
 
 /* =============
     Footer
@@ -399,7 +455,8 @@ footer {
   background-position: -75px 0;
   margin-bottom: 60px;
   justify-content: flex-end;
-  align-content: flex-end; }
+  align-content: flex-end;
+  margin-top: 30px; }
   @media (min-width: 500px) {
     #hero {
       height: 350px; } }
@@ -728,8 +785,9 @@ footer {
     color: #fff; }
   #signup input {
     margin-bottom: 15px; }
-  #signup ul {
-    width: 100%;
-    grid-column-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    display: grid; }
+  @media (min-width: 960px) {
+    #signup ul {
+      width: 100%;
+      grid-column-gap: 10px;
+      grid-template-columns: repeat(3, 1fr);
+      display: grid; } }

@@ -18,10 +18,13 @@
   }
 
   ul {
-    width:100%;
-    grid-column-gap:10px;
-    grid-template-columns:repeat(3, 1fr);
-    // grid-template-rows:repeat(1, 242px);
-    display:grid;
+    @include lg{
+      width:100%;
+      grid-column-gap:10px;
+      grid-template-columns:repeat(3, 1fr);
+      // grid-template-rows:repeat(1, 242px);
+      display:grid;
+    }
+  
   }
 }

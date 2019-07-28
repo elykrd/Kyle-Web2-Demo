@@ -1,3 +1,20 @@
 /* =============
     Navigation
 ============= */
+ul{
+
+li{
+
+  @include lg{
+    border-bottom: none;
+  }
+}
+
+
+  @include lg{
+    display: flex;
+    li{
+      padding-right: 11px;
+    }
+  }
+}
