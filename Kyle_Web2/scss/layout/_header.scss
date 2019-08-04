@@ -2,7 +2,7 @@
     Header
 ============= */
 
-header{
+// header{
 // background-color: $blue;
 // padding-bottom: 10px;
 // div{
@@ -10,86 +10,87 @@ header{
 // justify-content: space-between;
 // margin-top: 10px;
 // }
+// }
 
-display: grid;
-    grid-template-columns: 88% auto;
-    padding: 10px;
-    grid-template-areas:
-    "logo burger"
-    "nav nav";
-    position: fixed;
-    width: 100%;
-    background-color: $blue;
-    top: 0;
-
-    @include lg{
-      display: grid;
-        grid-template-columns: 60% auto;
-        padding: 10px;
-        grid-template-areas:
-        "logo nav"
-
-    }
-
-    section:nth-child(2){
-grid-area: burger;
-display: flex;
-justify-content: flex-end;
-padding-right: 10px;
-align-items: center;
-}
-
-    a{
-    color: $white;
-    font-size: rem-calc(16);
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-    margin-bottom: 15px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        border-bottom: 2px solid $white;
-
-
-
-
-    @include lg{
-      display: flex !important;
-      justify-content: space-between;
-      border-bottom: none;
-    }
-    }
-
-    button{
-    text-align: right;
-    color: $white;
-    font-size: rem-calc(20);
-    background-color: $blue;
-    border: none;
-    outline: none;
-
-    @include lg{
-      display: none;
-    }
-  }
-
-  nav{
-  grid-area: nav;
-  @include sm{
-    // display: none !important;
-  }
-
-  @include md{
-    // display: none !important;
-  }
-
-  @include lg{
-    border-bottom: none;
-    display: inline-block !important;
-
-
-  }
-
-}
-}
+// display: grid;
+//     grid-template-columns: 88% auto;
+//     padding: 10px;
+//     grid-template-areas:
+//     "logo burger"
+//     "nav nav";
+//     position: fixed;
+//     width: 100%;
+//     background-color: $blue;
+//     top: 0;
+//
+//     @include lg{
+//       display: grid;
+//         grid-template-columns: 60% auto;
+//         padding: 10px;
+//         grid-template-areas:
+//         "logo nav"
+//
+//     }
+//
+//     section:nth-child(2){
+// grid-area: burger;
+// display: flex;
+// justify-content: flex-end;
+// padding-right: 10px;
+// align-items: center;
+// }
+//
+//     a{
+//     color: $white;
+//     font-size: rem-calc(16);
+//     font-family: 'Open Sans', sans-serif;
+//     display: flex;
+//     justify-content: flex-end;
+//     padding-right: 20px;
+//     margin-bottom: 15px;
+//         padding-bottom: 10px;
+//         padding-top: 10px;
+//         border-bottom: 2px solid $white;
+//
+//
+//
+//
+//     @include lg{
+//       display: flex !important;
+//       justify-content: space-between;
+//       border-bottom: none;
+//     }
+//     }
+//
+//     button{
+//     text-align: right;
+//     color: $white;
+//     font-size: rem-calc(20);
+//     background-color: $blue;
+//     border: none;
+//     outline: none;
+//
+//     @include lg{
+//       display: none;
+//     }
+//   }
+//
+//   nav{
+//   grid-area: nav;
+//   @include sm{
+//     // display: none !important;
+//   }
+//
+//   @include md{
+//     // display: none !important;
+//   }
+//
+//   @include lg{
+//     border-bottom: none;
+//     display: inline-block !important;
+//
+//
+//   }
+//
+// }
+// }
