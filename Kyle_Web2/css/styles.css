@@ -383,13 +383,16 @@ input:focus {
 ============= */
 header {
   display: grid;
-  grid-template-columns: 88% auto;
+  grid-template-columns: 70% auto;
   padding: 10px;
   grid-template-areas: "logo burger" "nav nav";
   position: fixed;
   width: 100%;
   background-color: #31578B;
-  top: 0; }
+  top: 0;
+  /* =============
+    Burger
+============= */ }
   @media (min-width: 960px) {
     header {
       display: grid;
@@ -400,6 +403,7 @@ header {
     grid-area: burger;
     display: flex;
     justify-content: flex-end;
+    margin-right: 15px;
     padding-right: 10px;
     align-items: center; }
   header a {
@@ -418,22 +422,36 @@ header {
         display: flex !important;
         justify-content: space-between;
         border-bottom: none; } }
-  header button {
-    text-align: right;
-    color: #fff;
-    font-size: 1.25rem;
-    background-color: #31578B;
-    border: none;
-    outline: none; }
-    @media (min-width: 960px) {
-      header button {
-        display: none; } }
+  @media (min-width: 960px) {
+    header button {
+      display: none; } }
   header nav {
     grid-area: nav; }
     @media (min-width: 960px) {
       header nav {
         border-bottom: none;
         display: inline-block !important; } }
+  header #burger-container {
+    background-color: #31578B;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    outline: none;
+    position: relative;
+    width: 30px; }
+    header #burger-container div {
+      background-color: #000;
+      height: 3px;
+      margin-bottom: 20px;
+      position: absolute;
+      width: 100%; }
+    header #burger-container div:nth-child(1) {
+      top: 0; }
+    header #burger-container div:nth-child(2) {
+      top: 10px; }
+    header #burger-container div:nth-child(3) {
+      margin: 0;
+      top: 20px; }
 
 /* =============
     Footer
